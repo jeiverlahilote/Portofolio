@@ -5,9 +5,9 @@ const Contact = () => {
   return (
     <div className="wrapper">
       <div className="max-w-5xl mx-auto flex flex-col gap-4 items-center justify-center">
-        <h2 className="text-2xl font-bold">Let's Build Amazing Digital Experiences!</h2>
+        <h2 className="text-2xl font-bold">Let&apos;s Build Amazing Digital Experiences!</h2>
         <p className="text-lg tracking-wide font-medium text-center">
-        I'm passionate about turning ideas into impactful solutions. Let's collaborate 
+        I&apos;m passionate about turning ideas into impactful solutions. Let&apos;s collaborate 
         to enhance your online presence, create stunning designs, or solve complex challenges 
         through innovative technology.
         </p>
