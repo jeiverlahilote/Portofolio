@@ -1,6 +1,6 @@
 import Title from "./Title";
 import { MdWork } from "react-icons/md";
-import { SiReactivex, SiToptal, SiFreelancer, SiFiverr } from "react-icons/si";
+import { SiReactivex, SiToptal, SiFreelancer, SiFiverr, SiGoogle, SiReact } from "react-icons/si";
 import ExperienceCard from "./ExperienceCard";
 
 const Experience = () => {
@@ -9,25 +9,25 @@ const Experience = () => {
       <Title text="Experiences" icon={<MdWork />} />
       <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
         <ExperienceCard
-          title="ReactBD.com"
-          subTitle="Web Developer 2022 - Present"
+          title="Afbenesia - PT Afbe Cahaya Kreatif"
+          subTitle="Project Handler | Sept 2024 - Jan 2025"
           icon={<SiReactivex />}
         />
         <ExperienceCard
-          title="Toptal"
-          subTitle="MERN Stack Developer 2021 - present"
-          icon={<SiToptal />}
+          title="GDSC"
+          subTitle="Mobile Dev Student Group | Dec 2023 - Jan 2025"
+          icon={<SiGoogle />}
         />
         <ExperienceCard
           title="Freelancer"
-          subTitle="MERN Stack Developer 2020 - 2021"
+          subTitle="MERN Stack Developer | 2023 - present"
           icon={<SiFreelancer />}
         />
 
         <ExperienceCard
-          title="Fiverr"
-          subTitle="MERN Stack Developer 2019 - 2020"
-          icon={<SiFiverr />}
+          title="ESD LABORATORY"
+          subTitle="Software Engineer Student Group | Jan 2024 - Okt 2024"
+          icon={<SiReact />}
         />
       </div>
     </div>

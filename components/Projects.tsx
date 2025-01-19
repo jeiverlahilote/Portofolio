@@ -1,12 +1,12 @@
 import { FaProjectDiagram } from "react-icons/fa";
 import Title from "./Title";
-import amazonClone from "../public/img/projects/amazonClone.webp";
-import cyberBlog from "../public/img/projects/cyberBlog.webp";
-import noorShop from "../public/img/projects/noorShop.webp";
-import dynamicPortfolio from "../public/img/projects/dynamicPortfolio.png";
-import reactBD from "../public/img/projects/reactBD.png";
-import dashboard from "../public/img/projects/dashboard.webp";
-import Image from "next/image";
+import movieListing from "../public/img/projects/movieListing.png";
+import websiteDesa from "../public/img/projects/leuwiGrowth.png";
+import ecoTour from "../public/img/projects/Frame 6(5).png";
+import sibiLearning from "../public/img/projects/SIBI_LEARNING.png";
+import webBerita from "../public/img/projects/web-berita.png";
+import paymentFiture from "../public/img/projects/Frame 7.png";
+
 import ProjectCard from "./ProjectCard";
 
 const Projects = () => {
@@ -15,36 +15,36 @@ const Projects = () => {
       <Title text="Projects" icon={<FaProjectDiagram />} />
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 place-items-center">
         <ProjectCard
-          img={amazonClone.src}
-          title="Amazon Clone"
-          link="https://amazonclone.reactbd.com/"
+          img={movieListing .src}
+          title="Movie Listing"
+          link="https://flick-finder-site.vercel.app/"
         />
         <ProjectCard
-          img={reactBD.src}
-          title="Cyber Security"
-          link="https://reactbd.com/"
+          img={websiteDesa.src}
+          title="Website Desa"
+          link="https://leuwi-growth.vercel.app/"
         />
         <ProjectCard
-          img={cyberBlog.src}
-          title="Cyber Security"
-          link="https://blog.reactbd.com/"
+          img={ecoTour.src}
+          title="Eco Tour App"
+          link="https://github.com/jeiverlahilote/EcoTour-Indonesia"
         />
         <ProjectCard
-          img={noorShop.src}
-          title="Noor Shopping"
-          link="https://orebishopping.reactbd.com/"
+          img={sibiLearning.src}
+          title="Learning SIBI"
+          link="https://learning-sibi.vercel.app/"
         />
         <ProjectCard
-          img={dynamicPortfolio.src}
-          title="Dynamic Portfolio"
-          link="https://amazonclone.reactbd.com/"
+          img={webBerita.src}
+          title="News Website"
+          link="https://github.com/jeiverlahilote/quicknews"
+        />
+        <ProjectCard
+          img={paymentFiture.src}
+          title="Fitur Payment"
+          link="https://github.com/jeiverlahilote/EAZYKOZT"
         />
 
-        <ProjectCard
-          img={dashboard.src}
-          title="Dashboard"
-          link="https://orebishopping.reactbd.com/"
-        />
       </div>
     </div>
   );
